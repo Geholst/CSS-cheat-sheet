@@ -1,0 +1,37 @@
+:root {
+    --purp: blueviolet;
+}
+body {
+    background-color: gray
+} 
+
+#h1-CSS {
+    color: var(--purp);
+}
+
+#CSS {
+    color: white;
+}
+pre {
+    color: white
+}
+
+h2 {
+    color: var(--purp);
+}
+
+p {
+    color: var(--purp);
+}
+
+footer {
+    color: var(--purp);
+}
+
+@media screen and (max-width: 768px) {
+    section 
+    {
+        flex-direction: column;
+        background: var(--purp);
+    }
+}
